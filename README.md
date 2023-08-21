@@ -1,8 +1,6 @@
 # Landing Page (Boostrap 5 & Webpack) - Data with Analytics
 
-## Descriptions
-
-https://www.figma.com/community/file/990634575416780811
+Coding a template in Boostrap 5 using Webpack. Project by Rahul Rao available at [Figma](https://www.figma.com/community/file/990634575416780811).
 
 ## Quick Start
 
@@ -28,11 +26,11 @@ The `.env.sample` file should contain all the variables that your application ne
 
 ## TO DO!
 
--   Adaptation of navbar-toggler to the page (the project didn't include these elements)
--   Change dropdown-toggle icon, and edit style for dropdown-menu
--   Loading SVG files inline from HTML/CSS
--   Replacement of partner logos
--   Animate on scroll
--   Adding swiper for testimonial and
--   Adding lazyload
--   Improving the responsive version of the website
+-   [ ] Adaptation of navbar-toggler to the page (the project didn't include these elements)
+-   [ ] Change dropdown-toggle icon, and edit style for dropdown-menu
+-   [ ] Loading SVG files inline from HTML/CSS
+-   [ ] Replacement of partner logos
+-   [ ] Animate on scroll
+-   [ ] Adding swiper for testimonial
+-   [ ] Adding lazyload
+-   [ ] Improving the responsive version of the website
