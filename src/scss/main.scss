@@ -214,6 +214,21 @@ a {
     }
 }
 
+.btn-scroll-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    opacity: 0;
+    transition: all 0.3s ease-in;
+    &.show {
+        opacity: 1;
+    }
+    img {
+        width: 30px;
+        height: 40px;
+    }
+}
+
 .ribbon {
     color: $primary-color;
     margin: 0;
