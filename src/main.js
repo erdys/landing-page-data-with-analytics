@@ -10,27 +10,31 @@ initBootstrap({
     popover: true
 });
 
+// Load LazyLoad
+import "lazysizes";
+
 // Load Swiper
 import Swiper from "swiper/bundle";
 import "swiper/css/bundle";
 
 // Your app code
-// document.addEventListener("DOMContentLoaded", function () {
-//     const btnScrollToTop = document.getElementById("btnScrollToTop");
 
-//     window.addEventListener("scroll", function () {
-//         if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-//             btnScrollToTop.classList.add("show");
-//         } else {
-//             btnScrollToTop.classList.remove("show");
-//         }
-//     });
+document.addEventListener("DOMContentLoaded", function () {
+    const btnScrollToTop = document.getElementById("btnScrollToTop");
 
-//     btnScrollToTop.addEventListener("click", function () {
-//         document.body.scrollTop = 0;
-//         document.documentElement.scrollTop = 0;
-//     });
-// });
+    window.addEventListener("scroll", function () {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            btnScrollToTop.classList.add("show");
+        } else {
+            btnScrollToTop.classList.remove("show");
+        }
+    });
+
+    btnScrollToTop.addEventListener("click", function () {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+    });
+});
 
 const featureLogotype = new Swiper(".featureLogotype", {
     loop: true,
