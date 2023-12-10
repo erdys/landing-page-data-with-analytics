@@ -15,6 +15,10 @@ module.exports = {
     module: {
         rules: [
             {
+                test: /\.(woff(2)?|ttf|eot)(\?v=\d+\.\d+\.\d+)?$/,
+                type: "asset/resource"
+            },
+            {
                 test: /\.(s[ac]|c)ss$/,
                 use: [MiniCssExtractPlugin.loader, "css-loader", "postcss-loader", "sass-loader"]
             },
@@ -44,6 +48,9 @@ module.exports = {
     ],
 
     devServer: {
+        headers: {
+            "Access-Control-Allow-Origin": "*"
+        },
         static: {
             directory: path.resolve(process.cwd(), "public")
         },
