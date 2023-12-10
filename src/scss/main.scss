@@ -452,7 +452,7 @@ a {
         transform: skew(0deg, 5deg);
     }
     .feature {
-        .lead {
+        .description {
             margin: 2rem 0;
             font-size: 1.5rem;
             color: $header-color;
@@ -475,8 +475,15 @@ a {
             border-top: 1px solid $border-color;
             display: flex;
             justify-content: space-between;
-            .logo {
-                align-self: center;
+            .swiper-slide {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                filter: grayscale(1);
+                cursor: pointer;
+                &.swiper-slide-thumb-active {
+                    filter: none;
+                }
             }
         }
     }

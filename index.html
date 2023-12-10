@@ -7,46 +7,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Your data with real-time analytics</title>
 </head>
-<!-- <div class="container px-0" style="position: fixed; z-index: 10001; top: 0; left: 50%; transform: translate(-50%);">
-    <div class="row" style="height: 50vh;">
-        <div class="col-sm-1">
-            <div style="background: rgba(128, 0, 0, 0.187); height: 100%;">col 1</div>
-        </div>
-        <div class="col-sm-1">
-            <div style="background: rgba(128, 0, 0, 0.187); height: 100%;">col 2</div>
-        </div>
-        <div class="col-sm-1">
-            <div style="background: rgba(128, 0, 0, 0.187); height: 100%;">col 3</div>
-        </div>
-        <div class="col-sm-1">
-            <div style="background: rgba(128, 0, 0, 0.187); height: 100%;">col 4</div>
-        </div>
-        <div class="col-sm-1">
-            <div style="background: rgba(128, 0, 0, 0.187); height: 100%;">col 5</div>
-        </div>
-        <div class="col-sm-1">
-            <div style="background: rgba(128, 0, 0, 0.187); height: 100%;">col 6</div>
-        </div>
-        <div class="col-sm-1">
-            <div style="background: rgba(128, 0, 0, 0.187); height: 100%;">col 7</div>
-        </div>
-        <div class="col-sm-1">
-            <div style="background: rgba(128, 0, 0, 0.187); height: 100%;">col 8</div>
-        </div>
-        <div class="col-sm-1">
-            <div style="background: rgba(128, 0, 0, 0.187); height: 100%;">col 9</div>
-        </div>
-        <div class="col-sm-1">
-            <div style="background: rgba(128, 0, 0, 0.187); height: 100%;">col 10</div>
-        </div>
-        <div class="col-sm-1">
-            <div style="background: rgba(128, 0, 0, 0.187); height: 100%;">col 11</div>
-        </div>
-        <div class="col-sm-1">
-            <div style="background: rgba(128, 0, 0, 0.187); height: 100%;">col 12</div>
-        </div>
-    </div>
-</div> -->
 
 <header class="header-page">
     <div class="container px-0">
@@ -105,7 +65,9 @@
                     <p class="ribbon ribbon--icon"><span class="rounded-pill"><img src="images/icons/icon-eye.svg" alt="" class="icon"> Why Qubly</span>
                     </p>
                     <h2 class="title">Get actionable insights from Big Data in 3 steps</h2>
-                    <p class="description">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+                    <div class="d-flex justify-content-center">
+                        <p class="col-8 description">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+                    </div>
                 </div>
             </div>
             <div class="row">
@@ -142,7 +104,7 @@
                 </div>
                 <div class="col-md-7">
                     <p class="ribbon ribbon--icon"><span class="rounded-pill"><img src="images/icons/icon-teams.svg" alt="" class="icon"> For Product Teams</span></p>
-                    <h2 class="title title--sub">Launch with the best stack</h2>
+                    <h2 class="title py-4">Launch with the best stack</h2>
                     <p class="description">A centralized platform that integrates zillions of data sources using Big Data ELT (Extract, Load & Transform) that leaves no data behind.</p>
                 </div>
             </div>
@@ -164,24 +126,61 @@
             </div>
         </div>
     </section>
+
     <section class="testimonial-section">
         <div class="container px-0 py-5" id="recommendations">
             <div class="row">
-                <div class="feature description-center">
-                    <p class="description">"What I love about Qubly is the easy way we can collaborate even if there is a lot of people involved in the process"</p>
-                    <figure class="avatar rounded-circle">
-                        <img src="images/avatars/cto-bigspring.png" width="80" height="80" class="img-fluid">
-                    </figure>
-                    <p class="name">Guillaume Cabane <span>CTO @ BigSpring</span></p>
+                <div class="swiper featureDescription">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide feature description-center">
+                            <p class="description">"One of the standout features of Qubly is its seamless collaboration capabilities, making teamwork a breeze even with a large group of individuals. Truly a game-changer for productive collaboration."</p>
+                            <figure class="avatar rounded-circle">
+                                <img src="images/avatars/cto-bigspring.png" width="80" height="80" class="img-fluid">
+                            </figure>
+                            <p class="name">Sagi Eliyahu <span>CEO @ Tonkean</span></p>
+                        </div>
+                        <div class="swiper-slide feature description-center">
+                            <p class="description">"What I love about Qubly is the easy way we can collaborate even if there is a lot of people involved in the process"</p>
+                            <figure class="avatar rounded-circle">
+                                <img src="images/avatars/cto-bigspring.png" width="80" height="80" class="img-fluid">
+                            </figure>
+                            <p class="name">Guillaume Cabane <span>CTO @ BigSpring</span></p>
+                        </div>
+                        <div class="swiper-slide feature description-center">
+                            <p class="description">"Qubly's collaborative approach is second to none. Managing projects with a large team has never been easier, thanks to its intuitive interface that fosters smooth communication and efficient collaboration."</p>
+                            <figure class="avatar rounded-circle">
+                                <img src="images/avatars/cto-bigspring.png" width="80" height="80" class="img-fluid">
+                            </figure>
+                            <p class="name">Matt Sornson <span>CEO @ Clearbit</span></p>
+                        </div>
+                        <div class="swiper-slide feature description-center">
+                            <p class="description">"Qubly excels in fostering a collaborative environment, even when dealing with a multitude of team members. The platform's user-friendly interface and collaborative tools have significantly streamlined our workflow and made teamwork enjoyable."</p>
+                            <figure class="avatar rounded-circle">
+                                <img src="images/avatars/cto-bigspring.png" width="80" height="80" class="img-fluid">
+                            </figure>
+                            <p class="name">Gal Ringel <span>CEO @ Mine</span></p>
+                        </div>
+                        <div class="swiper-slide feature description-center">
+                            <p class="description">"What sets Qubly apart is its remarkable ability to facilitate collaboration, especially in projects involving numerous contributors. The platform's user-friendly design and collaborative features have made it an indispensable tool for our team, ensuring seamless cooperation."</p>
+                            <figure class="avatar rounded-circle">
+                                <img src="images/avatars/cto-bigspring.png" width="80" height="80" class="img-fluid">
+                            </figure>
+                            <p class="name">Petar Simic <span>CEO @ Shake</span></p>
+                        </div>
+                    </div>
                 </div>
                 <div class="feature">
-                    <ul class="feature-logotype">
-                        <li><img src="images/partners/tonkean.png" alt="" class="logo"></li>
-                        <li><img src="images/partners/bigspring.png" alt="" class="logo"></li>
-                        <li><img src="images/partners/clearbit.png" alt="" class="logo"></li>
-                        <li><img src="images/partners/mine.png" alt="" class="logo"></li>
-                        <li><img src="images/partners/shake.png" alt="" class="logo"></li>
-                    </ul>
+                    <div class="feature-logotype">
+                        <div class="swiper featureLogotype">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide"><img src="images/partners/tonkean.png" alt=""></div>
+                                <div class="swiper-slide"><img src="images/partners/bigspring.png" alt=""></div>
+                                <div class="swiper-slide"><img src="images/partners/clearbit.png" alt=""></div>
+                                <div class="swiper-slide"><img src="images/partners/mine.png" alt=""></div>
+                                <div class="swiper-slide"><img src="images/partners/shake.png" alt=""></div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
