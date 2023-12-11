@@ -2,6 +2,8 @@
 
 Coding a template in Boostrap 5 using Webpack. Project by Rahul Rao available at [Figma](https://www.figma.com/community/file/990634575416780811).
 
+The demo is available [here](https://www.berdychowski.com/demo/landing-page-data-with-analytics).
+
 ## Quick Start
 
 ```bash
