@@ -273,6 +273,7 @@ a {
     &-primary {
     }
 }
+
 .title {
     color: $header-color;
     &--sub {
@@ -296,6 +297,10 @@ a {
     }
 }
 
+.img-resize {
+    max-width: 150%;
+    height: auto;
+}
 .ribbon {
     color: $primary-color;
     margin: 0;
