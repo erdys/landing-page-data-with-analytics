@@ -28,9 +28,8 @@ The `.env.sample` file should contain all the variables that your application ne
 
 -   [x] Adaptation of navbar-toggler to the page (the project didn't include these elements)
 -   [x] Change dropdown-toggle icon, and edit style for dropdown-menu
--   [ ] Loading SVG files inline from HTML/CSS
 -   [x] Replacement of partner logos
--   [ ] Animate on scroll
+-   [x] Animate on scroll
 -   [x] Adding swiper for testimonial
--   [ ] Adding lazyload
+-   [x] Adding lazyload
 -   [x] Improving the responsive version of the website
