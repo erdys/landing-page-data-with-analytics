@@ -17,7 +17,17 @@ import "lazysizes";
 import Swiper from "swiper/bundle";
 import "swiper/css/bundle";
 
+// Load AOS
+
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 // Your app code
+
+AOS.init({
+    delay: 100, // values from 0 to 3000, with step 50ms
+    duration: 600 //
+});
 
 document.addEventListener("DOMContentLoaded", function () {
     const btnScrollToTop = document.getElementById("btnScrollToTop");
